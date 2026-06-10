@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="水果醋包裝">
+  <rect width="520" height="520" rx="28" fill="#F8F5EC"/>
+  <path d="M214 72h92l18 84v240c0 34-28 62-62 62h-32c-34 0-62-28-62-62V156z" fill="#fffdf7" stroke="#89A97A" stroke-width="6"/>
+  <rect x="202" y="214" width="116" height="122" rx="16" fill="#C7A35A" opacity=".72"/>
+  <text x="260" y="292" text-anchor="middle" font-family="serif" font-size="32" fill="#6E5841">水果醋</text>
+</svg>

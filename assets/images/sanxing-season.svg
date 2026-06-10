@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="一年一期140天自然熟成">
+  <rect width="900" height="620" rx="28" fill="#F8F5EC"/>
+  <path d="M0 382c144-76 288-92 432-48 158 48 316 28 474-60v346H0z" fill="#D7E4D0"/>
+  <path d="M0 472c206-84 420-116 640-96 96 8 184 0 260-24v268H0z" fill="#89A97A"/>
+  <circle cx="694" cy="148" r="72" fill="#C7A35A" opacity=".6"/>
+  <text x="88" y="128" font-family="serif" font-size="54" fill="#6F8F61">一年一期</text>
+  <text x="88" y="188" font-family="sans-serif" font-size="28" fill="#6E5841">140天自然熟成</text>
+  <g fill="none" stroke="#F8F5EC" stroke-width="5" opacity=".72">
+    <path d="M80 558c130-102 294-168 492-198"/>
+    <path d="M210 584c152-92 340-148 564-168"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-label="SGS檢驗報告">
+  <rect width="480" height="340" rx="22" fill="#F8F5EC"/>
+  <rect x="38" y="30" width="404" height="280" rx="14" fill="#fffdf7" stroke="#D7E4D0" stroke-width="6"/>
+  <text x="86" y="114" font-family="sans-serif" font-size="44" font-weight="700" fill="#6F8F61">SGS</text>
+  <rect x="86" y="150" width="292" height="12" rx="6" fill="#D7E4D0"/>
+  <rect x="86" y="184" width="240" height="12" rx="6" fill="#D7E4D0"/>
+  <rect x="86" y="218" width="304" height="12" rx="6" fill="#D7E4D0"/>
+  <circle cx="354" cy="96" r="34" fill="#C7A35A" opacity=".72"/>
+  <path d="M340 96l10 10 24-28" fill="none" stroke="#fffdf7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

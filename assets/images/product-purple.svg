@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="紫米包裝">
+  <rect width="520" height="520" rx="28" fill="#F8F5EC"/>
+  <rect x="144" y="70" width="232" height="360" rx="26" fill="#fffdf7" stroke="#89A97A" stroke-width="6"/>
+  <text x="260" y="178" text-anchor="middle" font-family="serif" font-size="48" fill="#6F4F7A">紫米</text>
+  <text x="260" y="224" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#6E5841">原型穀物</text>
+  <g fill="#6F4F7A"><ellipse cx="226" cy="314" rx="13" ry="28" transform="rotate(-24 226 314)"/><ellipse cx="264" cy="298" rx="13" ry="28" transform="rotate(8 264 298)"/><ellipse cx="302" cy="318" rx="13" ry="28" transform="rotate(28 302 318)"/></g>
+</svg>

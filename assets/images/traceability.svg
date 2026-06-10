@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-label="產地批號追溯">
+  <rect width="480" height="340" rx="22" fill="#F8F5EC"/>
+  <path d="M96 238c70-116 156-176 258-180" fill="none" stroke="#89A97A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="110" cy="226" r="38" fill="#6F8F61"/>
+  <circle cx="238" cy="122" r="38" fill="#C7A35A"/>
+  <circle cx="356" cy="66" r="38" fill="#6F8F61"/>
+  <rect x="92" y="272" width="288" height="14" rx="7" fill="#D7E4D0"/>
+  <rect x="144" y="296" width="184" height="10" rx="5" fill="#D7E4D0"/>
+</svg>

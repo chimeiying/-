@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="米製點心包裝">
+  <rect width="520" height="520" rx="28" fill="#F8F5EC"/>
+  <rect x="116" y="146" width="288" height="236" rx="24" fill="#fffdf7" stroke="#89A97A" stroke-width="6"/>
+  <text x="260" y="222" text-anchor="middle" font-family="serif" font-size="36" fill="#6F8F61">米製點心</text>
+  <g fill="#C7A35A" opacity=".78"><circle cx="218" cy="310" r="28"/><circle cx="264" cy="294" r="28"/><circle cx="306" cy="322" r="28"/></g>
+</svg>

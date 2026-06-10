@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="長秈10號糙米包裝">
+  <rect width="520" height="520" rx="28" fill="#eee1c9"/>
+  <rect x="144" y="70" width="232" height="360" rx="26" fill="#ede0c4" stroke="#173b2f" stroke-width="6"/>
+  <rect x="174" y="102" width="172" height="296" rx="16" fill="#d4bd88"/>
+  <text x="260" y="172" text-anchor="middle" font-family="serif" font-size="42" fill="#173b2f">糙米</text>
+  <text x="260" y="218" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#173b2f">長秈10號</text>
+  <g fill="#7b5f20">
+    <ellipse cx="228" cy="310" rx="12" ry="26" transform="rotate(-24 228 310)"/>
+    <ellipse cx="260" cy="294" rx="12" ry="26" transform="rotate(8 260 294)"/>
+    <ellipse cx="294" cy="316" rx="12" ry="26" transform="rotate(28 294 316)"/>
+  </g>
+</svg>

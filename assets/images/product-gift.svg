@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="長秈10號禮盒">
+  <rect width="520" height="520" rx="28" fill="#f4ead7"/>
+  <rect x="86" y="136" width="348" height="248" rx="20" fill="#173b2f"/>
+  <rect x="110" y="160" width="300" height="200" rx="14" fill="#f8f0da"/>
+  <rect x="248" y="136" width="24" height="248" fill="#d5a83c"/>
+  <rect x="86" y="238" width="348" height="24" fill="#d5a83c"/>
+  <text x="260" y="218" text-anchor="middle" font-family="serif" font-size="34" fill="#173b2f">長秈10號</text>
+  <text x="260" y="302" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#173b2f">雙入禮盒</text>
+</svg>

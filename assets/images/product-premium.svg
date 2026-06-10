@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="長秈10號白米包裝">
+  <rect width="520" height="520" rx="28" fill="#f4ead7"/>
+  <rect x="144" y="70" width="232" height="360" rx="26" fill="#fbf7ed" stroke="#173b2f" stroke-width="6"/>
+  <rect x="174" y="102" width="172" height="296" rx="16" fill="#f6efe1"/>
+  <text x="260" y="172" text-anchor="middle" font-family="serif" font-size="42" fill="#173b2f">白米</text>
+  <text x="260" y="218" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#173b2f">長秈10號</text>
+  <path d="M214 304c38-48 74-70 112-76-16 42-44 70-86 88 26-4 52 0 76 8-40 36-84 44-132 20 14-10 24-22 30-40z" fill="#d5a83c"/>
+</svg>

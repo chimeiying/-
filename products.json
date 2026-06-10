@@ -1,0 +1,322 @@
+[
+  {
+    "id": "hs10-white-rice",
+    "slug": "hs10-white-rice",
+    "name": "長秈10號白米",
+    "category": "米食系列",
+    "price": 360,
+    "currency": "TWD",
+    "weight": "1.5kg",
+    "badge": "優先商品",
+    "image": "../assets/images/product-premium.svg",
+    "shortDescription": "米粒修長、口感清爽，適合每日餐桌。",
+    "description": "以宜蘭三星有機農業為基礎，選用台中長秈10號米種，一年一期自然熟成，呈現清爽粒感與自然米香。",
+    "features": ["台中長秈10號米種", "一年一期自然熟成", "低溫碾製保留新鮮米香"],
+    "originStory": "宜蘭三星水氣充足、節氣穩定，稻作在田間慢慢成熟，讓每一口飯都回到土地本身的乾淨與安心。",
+    "verification": ["有機農業管理", "SGS檢驗", "批次追溯"],
+    "specs": {
+      "產地": "宜蘭三星",
+      "品種": "台中長秈10號",
+      "保存方式": "密封置於陰涼乾燥處，開封後建議冷藏",
+      "炊煮建議": "米水比約 1:1.1，可依口感調整"
+    },
+    "faq": [
+      { "question": "長秈10號白米適合什麼料理？", "answer": "適合日常白飯、便當、蔬食餐盤與清爽型料理。" },
+      { "question": "需要浸泡嗎？", "answer": "可浸泡 15 至 20 分鐘，米飯口感會更穩定。" }
+    ],
+    "seoTitle": "長秈10號白米｜心有戚戚焉 為健康把關",
+    "seoDescription": "宜蘭三星有機農業培育的長秈10號白米，一年一期自然熟成，清爽粒感、安心檢驗、批次追溯。"
+  },
+  {
+    "id": "hs10-germ-rice",
+    "slug": "hs10-germ-rice",
+    "name": "長秈10號胚芽米",
+    "category": "米食系列",
+    "price": 390,
+    "currency": "TWD",
+    "weight": "1.2kg",
+    "badge": "營養米食",
+    "image": "../assets/images/product-germ.svg",
+    "shortDescription": "保留胚芽，兼顧米香與營養。",
+    "description": "以低度碾製保留胚芽營養，口感比糙米柔和，比白米多一層自然穀香。",
+    "features": ["保留胚芽", "穀香溫潤", "適合白米混煮"],
+    "originStory": "小批量碾製與保存，讓胚芽米保有新鮮風味與穀物層次。",
+    "verification": ["有機農業管理", "低溫保存", "批次碾製紀錄"],
+    "specs": {
+      "產地": "宜蘭三星",
+      "品種": "台中長秈10號",
+      "保存方式": "開封後建議冷藏",
+      "炊煮建議": "可與白米 1:1 混煮"
+    },
+    "faq": [
+      { "question": "胚芽米和糙米差在哪？", "answer": "胚芽米保留胚芽但口感較柔和，適合剛開始調整飲食的人。" }
+    ],
+    "seoTitle": "長秈10號胚芽米｜宜蘭三星安心米食",
+    "seoDescription": "長秈10號胚芽米保留胚芽與自然穀香，適合日常米飯與家庭混煮。"
+  },
+  {
+    "id": "hs10-brown-rice",
+    "slug": "hs10-brown-rice",
+    "name": "長秈10號糙米",
+    "category": "米食系列",
+    "price": 320,
+    "currency": "TWD",
+    "weight": "1.2kg",
+    "badge": "高纖米食",
+    "image": "../assets/images/product-brown.svg",
+    "shortDescription": "完整米糠層，飽足感更好。",
+    "description": "保留米糠層與穀物香氣，適合重視原型食物與健康飲食的人。",
+    "features": ["完整穀香", "飽足感佳", "適合養生餐盤"],
+    "originStory": "一年一期的自然節奏，讓米粒在田間慢慢累積風味。",
+    "verification": ["有機農業管理", "SGS檢驗", "批次追溯"],
+    "specs": {
+      "產地": "宜蘭三星",
+      "品種": "台中長秈10號",
+      "保存方式": "密封冷藏最佳",
+      "炊煮建議": "浸泡 2 小時，米水比約 1:1.3"
+    },
+    "faq": [
+      { "question": "糙米需要浸泡嗎？", "answer": "建議浸泡至少 2 小時，口感會更柔和。" }
+    ],
+    "seoTitle": "長秈10號糙米｜有機糙米與健康米食",
+    "seoDescription": "長秈10號糙米保留完整米糠層與自然穀香，適合混米與養生餐盤。"
+  },
+  {
+    "id": "purple-rice",
+    "slug": "purple-rice",
+    "name": "紫米",
+    "category": "米食系列",
+    "price": 280,
+    "currency": "TWD",
+    "weight": "600g",
+    "badge": "原型穀物",
+    "image": "../assets/images/product-purple.svg",
+    "shortDescription": "深色穀物香，甜鹹料理皆宜。",
+    "description": "紫米帶有濃郁穀物香，適合混米、甜湯、飯糰與節慶料理。",
+    "features": ["天然紫黑色澤", "穀香濃郁", "甜湯飯食皆宜"],
+    "originStory": "少量包裝維持新鮮，讓深色穀物成為日常餐桌的自然補充。",
+    "verification": ["來源管理", "批次檢驗", "低溫保存"],
+    "specs": {
+      "產地": "台灣",
+      "保存方式": "密封陰涼保存",
+      "炊煮建議": "建議與白米混煮"
+    },
+    "faq": [
+      { "question": "紫米可以單獨煮嗎？", "answer": "可以，但建議先浸泡，或與白米混煮讓口感更均衡。" }
+    ],
+    "seoTitle": "紫米｜心有戚戚焉原型穀物",
+    "seoDescription": "紫米適合混米、甜湯與飯食料理，提供批次檢驗與安心來源管理。"
+  },
+  {
+    "id": "organic-black-soybean",
+    "slug": "organic-black-soybean",
+    "name": "有機黑豆",
+    "category": "豆類系列",
+    "price": 260,
+    "currency": "TWD",
+    "weight": "500g",
+    "badge": "優先商品",
+    "image": "../assets/images/product-bean.svg",
+    "shortDescription": "豆香厚實，適合豆漿與料理。",
+    "description": "嚴選有機黑豆，顆粒飽滿、豆香厚實，可用於自煮黑豆漿、黑豆茶與日常料理。",
+    "features": ["有機栽培", "顆粒飽滿", "適合煮豆漿"],
+    "originStory": "以友善農業精神照顧豆作，讓豆香回到自然樸實的狀態。",
+    "verification": ["有機驗證", "SGS檢驗", "產地追溯"],
+    "specs": {
+      "產地": "宜蘭",
+      "品項": "有機黑豆",
+      "保存方式": "密封陰涼保存，避免潮濕",
+      "料理建議": "浸泡後可煮豆漿、黑豆茶或入菜"
+    },
+    "faq": [
+      { "question": "黑豆需要浸泡多久？", "answer": "建議浸泡 6 至 8 小時，再依料理方式烹煮。" },
+      { "question": "可以直接煮豆漿嗎？", "answer": "可以，浸泡後清洗再打漿烹煮，豆香會更完整。" }
+    ],
+    "seoTitle": "有機黑豆｜心有戚戚焉豆類系列",
+    "seoDescription": "有機黑豆顆粒飽滿、豆香厚實，適合自煮黑豆漿、黑豆茶與健康料理。"
+  },
+  {
+    "id": "organic-black-soymilk",
+    "slug": "organic-black-soymilk",
+    "name": "有機黑豆漿",
+    "category": "豆飲系列",
+    "price": 420,
+    "currency": "TWD",
+    "weight": "250ml x 6",
+    "badge": "優先商品",
+    "image": "../assets/images/product-soymilk.svg",
+    "shortDescription": "自然豆香，日常補充剛剛好。",
+    "description": "以有機黑豆製成，口感溫潤、豆香細緻，不添加香精，適合早餐、運動後與日常補充。",
+    "features": ["有機黑豆製成", "無添加香精", "細緻豆香"],
+    "originStory": "從原料選擇到製程管理都回到簡單乾淨，讓豆飲保留黑豆本身的自然香氣。",
+    "verification": ["有機原料", "食品安全檢驗", "製程批次管理"],
+    "specs": {
+      "容量": "250ml x 6",
+      "原料": "有機黑豆",
+      "保存方式": "依包裝標示冷藏或常溫保存",
+      "飲用建議": "開封後請盡速飲用"
+    },
+    "faq": [
+      { "question": "有機黑豆漿適合什麼時候喝？", "answer": "早餐、午後或運動後都適合，作為日常蛋白補充。" },
+      { "question": "是否添加香精？", "answer": "不添加香精，以黑豆本身的自然豆香為主。" }
+    ],
+    "seoTitle": "有機黑豆漿｜心有戚戚焉豆飲系列",
+    "seoDescription": "有機黑豆漿使用有機黑豆製成，豆香細緻、無添加香精，適合日常健康補充。"
+  },
+  {
+    "id": "rice-bran-tea",
+    "slug": "rice-bran-tea",
+    "name": "米糠穀香茶",
+    "category": "養生系列",
+    "price": 300,
+    "currency": "TWD",
+    "weight": "12入",
+    "badge": "養生日常",
+    "image": "../assets/images/product-tea.svg",
+    "shortDescription": "無咖啡因，穀香溫潤回甘。",
+    "description": "以米糠烘焙成穀香茶飲，無咖啡因，適合飯後、午後與睡前飲用。",
+    "features": ["米糠烘焙", "無咖啡因", "溫潤穀香"],
+    "originStory": "珍惜一粒米的完整價值，讓米糠延伸成日常養生茶飲。",
+    "verification": ["原料批次管理", "食品安全檢驗", "無咖啡因"],
+    "specs": {
+      "內容": "12入",
+      "保存方式": "避免高溫潮濕",
+      "飲用建議": "熱水沖泡，可依口味調整時間"
+    },
+    "faq": [
+      { "question": "米糠穀香茶有咖啡因嗎？", "answer": "沒有咖啡因，適合午後與睡前飲用。" }
+    ],
+    "seoTitle": "米糠穀香茶｜無咖啡因養生茶飲",
+    "seoDescription": "米糠穀香茶以烘焙米糠製成，無咖啡因、穀香溫潤，適合日常養生飲用。"
+  },
+  {
+    "id": "apple-vinegar",
+    "slug": "apple-vinegar",
+    "name": "蘋果水果醋",
+    "category": "養生系列",
+    "price": 380,
+    "currency": "TWD",
+    "weight": "500ml",
+    "badge": "清爽果醋",
+    "image": "../assets/images/product-vinegar.svg",
+    "shortDescription": "清爽果酸，適合日常調飲。",
+    "description": "蘋果果香搭配溫和醋感，可加水、氣泡水或作為料理調味。",
+    "features": ["果香明亮", "冷熱皆宜", "可調飲入菜"],
+    "originStory": "用簡單方式把水果風味帶進日常，讓養生不必沉重。",
+    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"],
+    "specs": {
+      "容量": "500ml",
+      "保存方式": "避免陽光直射",
+      "飲用建議": "依個人口味稀釋 5 至 8 倍"
+    },
+    "faq": [
+      { "question": "水果醋可以直接喝嗎？", "answer": "建議稀釋後飲用，避免刺激。" }
+    ],
+    "seoTitle": "蘋果水果醋｜自然果香養生系列",
+    "seoDescription": "蘋果水果醋果香清爽，可加水、氣泡水或入菜，是日常養生調飲選擇。"
+  },
+  {
+    "id": "plum-vinegar",
+    "slug": "plum-vinegar",
+    "name": "梅子水果醋",
+    "category": "養生系列",
+    "price": 380,
+    "currency": "TWD",
+    "weight": "500ml",
+    "badge": "回甘果醋",
+    "image": "../assets/images/product-vinegar.svg",
+    "shortDescription": "梅香甘酸，飯後剛好。",
+    "description": "梅香溫潤、酸甜平衡，適合餐後稀釋飲用或做成清爽醬汁。",
+    "features": ["梅子香氣", "酸甜平衡", "適合飯後"],
+    "originStory": "從日常飲食節奏出發，讓餐桌多一種舒服的收尾。",
+    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"],
+    "specs": {
+      "容量": "500ml",
+      "保存方式": "避免陽光直射",
+      "飲用建議": "依個人口味稀釋 5 至 8 倍"
+    },
+    "faq": [
+      { "question": "梅子水果醋適合什麼時候喝？", "answer": "適合飯後稀釋飲用，也可搭配氣泡水。" }
+    ],
+    "seoTitle": "梅子水果醋｜飯後養生調飲",
+    "seoDescription": "梅子水果醋酸甜平衡、梅香回甘，適合飯後稀釋飲用或料理調味。"
+  },
+  {
+    "id": "grape-vinegar",
+    "slug": "grape-vinegar",
+    "name": "葡萄水果醋",
+    "category": "養生系列",
+    "price": 380,
+    "currency": "TWD",
+    "weight": "500ml",
+    "badge": "果香調飲",
+    "image": "../assets/images/product-vinegar.svg",
+    "shortDescription": "果香濃郁，酸甜柔順。",
+    "description": "葡萄香氣柔和，適合與氣泡水調飲，作為日常不甜膩的健康飲品。",
+    "features": ["葡萄香氣", "酸感柔順", "氣泡水好搭"],
+    "originStory": "以簡單原料與穩定製程，把水果風味轉化成日常養生選擇。",
+    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"],
+    "specs": {
+      "容量": "500ml",
+      "保存方式": "避免陽光直射",
+      "飲用建議": "依個人口味稀釋 5 至 8 倍"
+    },
+    "faq": [
+      { "question": "葡萄水果醋可以搭配氣泡水嗎？", "answer": "可以，氣泡水能帶出更清爽的果香。" }
+    ],
+    "seoTitle": "葡萄水果醋｜日常果醋調飲",
+    "seoDescription": "葡萄水果醋果香濃郁、酸感柔順，適合稀釋飲用與氣泡水調飲。"
+  },
+  {
+    "id": "black-soybean-roll",
+    "slug": "black-soybean-roll",
+    "name": "黑豆蛋捲",
+    "category": "米製點心",
+    "price": 280,
+    "currency": "TWD",
+    "weight": "8入",
+    "badge": "米製點心",
+    "image": "../assets/images/product-snack.svg",
+    "shortDescription": "黑豆香氣，酥鬆不厚重。",
+    "description": "以黑豆香氣帶出自然穀物風味，是下午茶與禮盒搭配的溫柔點心。",
+    "features": ["黑豆入味", "酥鬆口感", "茶點合適"],
+    "originStory": "從米食與豆類延伸到點心，讓健康品牌也能有好入口的生活感。",
+    "verification": ["食品安全檢驗", "製程批次管理", "原料來源管理"],
+    "specs": {
+      "內容": "8入",
+      "保存方式": "置於陰涼乾燥處",
+      "食用建議": "開封後請盡速食用"
+    },
+    "faq": [
+      { "question": "黑豆蛋捲適合送禮嗎？", "answer": "適合，可搭配米食或豆飲作為健康禮盒。" }
+    ],
+    "seoTitle": "黑豆蛋捲｜米製點心與健康茶點",
+    "seoDescription": "黑豆蛋捲酥鬆不厚重，帶有自然黑豆香氣，適合茶點與禮贈。"
+  },
+  {
+    "id": "brown-rice-cracker",
+    "slug": "brown-rice-cracker",
+    "name": "糙米米餅",
+    "category": "米製點心",
+    "price": 180,
+    "currency": "TWD",
+    "weight": "120g",
+    "badge": "輕點心",
+    "image": "../assets/images/product-snack.svg",
+    "shortDescription": "米香酥脆，簡單耐吃。",
+    "description": "以糙米製成的酥脆米餅，保留自然米香，適合日常分享。",
+    "features": ["糙米製作", "酥脆米香", "少負擔"],
+    "originStory": "把米飯之外的可能做成簡單點心，讓糙米更容易進入生活。",
+    "verification": ["食品安全檢驗", "製程批次管理", "原料來源管理"],
+    "specs": {
+      "內容": "120g",
+      "保存方式": "置於陰涼乾燥處",
+      "食用建議": "開封後請密封保存"
+    },
+    "faq": [
+      { "question": "糙米米餅適合孩子吃嗎？", "answer": "適合日常分享，但仍需依個人口味與飲食需求選擇。" }
+    ],
+    "seoTitle": "糙米米餅｜健康米製點心",
+    "seoDescription": "糙米米餅以糙米製成，酥脆米香、少負擔，適合日常分享。"
+  }
+]

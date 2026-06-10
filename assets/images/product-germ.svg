@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="長秈10號胚芽米包裝">
+  <rect width="520" height="520" rx="28" fill="#F8F5EC"/>
+  <rect x="144" y="70" width="232" height="360" rx="26" fill="#fffdf7" stroke="#89A97A" stroke-width="6"/>
+  <text x="260" y="174" text-anchor="middle" font-family="serif" font-size="40" fill="#6F8F61">胚芽米</text>
+  <text x="260" y="220" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#6E5841">長秈10號</text>
+  <path d="M214 310c36-50 74-74 114-80-16 44-44 74-86 92 24-4 50 0 76 8-42 34-86 40-132 18 12-12 22-26 28-38z" fill="#C7A35A"/>
+</svg>

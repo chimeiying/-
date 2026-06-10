@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="米糠穀香茶包裝">
+  <rect width="520" height="520" rx="28" fill="#F8F5EC"/>
+  <rect x="130" y="104" width="260" height="290" rx="24" fill="#fffdf7" stroke="#89A97A" stroke-width="6"/>
+  <text x="260" y="178" text-anchor="middle" font-family="serif" font-size="34" fill="#6F8F61">米糠穀香茶</text>
+  <path d="M196 276c54-44 110-44 168 0-28 42-56 62-84 62s-56-20-84-62z" fill="#C7A35A" opacity=".72"/>
+</svg>

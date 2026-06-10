@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{SEO_TITLE}}</title>
+    <meta name="description" content="{{SEO_DESCRIPTION}}">
+    <meta property="og:title" content="{{SEO_TITLE}}">
+    <meta property="og:description" content="{{SEO_DESCRIPTION}}">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="{{PRODUCT_IMAGE}}">
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260609-5">
+  </head>
+  <body>
+    <header class="product-template-header">
+      <a class="brand-mark" href="index.html#/">
+        <object class="brand-logo" data="assets/images/logo-qih.png" type="image/png" aria-label="心有戚戚焉正式Logo">
+          <span class="logo-fallback">心有戚戚焉</span>
+        </object>
+        <span>
+          <strong>心有戚戚焉</strong>
+          <small>為健康把關</small>
+        </span>
+      </a>
+      <nav class="template-nav">
+        <a href="index.html#/story">品牌故事</a>
+        <a href="index.html#/verification">安心驗證</a>
+        <a href="index.html#/series">商品系列</a>
+      </nav>
+    </header>
+
+    <main class="product-template">
+      <section class="template-product-hero">
+        <div class="template-product-copy">
+          <p class="badge">{{CATEGORY}}</p>
+          <h1>{{PRODUCT_NAME}}</h1>
+          <p>{{PRODUCT_DESCRIPTION}}</p>
+          <div class="price-line">
+            <strong>NT$ {{PRICE}}</strong>
+            <span>{{WEIGHT}}</span>
+          </div>
+          <div class="detail-actions">
+            <a class="button primary" href="#purchase">立即購買</a>
+            <a class="button secondary" href="index.html#/contact">詢問商品</a>
+          </div>
+        </div>
+        <div class="template-product-media">
+          <img src="{{PRODUCT_IMAGE}}" alt="{{PRODUCT_NAME}}">
+        </div>
+      </section>
+
+      <section class="template-section">
+        <p class="eyebrow">商品特色</p>
+        <h2>讓日常吃得更安心。</h2>
+        <div class="feature-cards">
+          {{FEATURES}}
+        </div>
+      </section>
+
+      <section class="template-section two-column">
+        <div>
+          <p class="eyebrow">產地故事</p>
+          <h2>從土地開始的健康選擇。</h2>
+        </div>
+        <p>{{ORIGIN_STORY}}</p>
+      </section>
+
+      <section class="template-section trust-block">
+        <div>
+          <p class="eyebrow">安心驗證</p>
+          <h2>用看得見的紀錄建立信任。</h2>
+        </div>
+        <div class="verification-chips">
+          {{VERIFICATION}}
+        </div>
+      </section>
+
+      <section class="template-section">
+        <p class="eyebrow">商品規格</p>
+        <h2>規格資訊</h2>
+        <div class="spec-table">
+          {{SPECS}}
+        </div>
+      </section>
+
+      <section class="template-section faq-section">
+        <p class="eyebrow">FAQ</p>
+        <h2>常見問題</h2>
+        {{FAQ}}
+      </section>
+
+      <section class="template-section">
+        <p class="eyebrow">推薦商品</p>
+        <h2>一起帶回家的安心選擇。</h2>
+        <div class="product-grid">
+          {{RECOMMENDED_PRODUCTS}}
+        </div>
+      </section>
+
+      <section id="purchase" class="template-section purchase-cta">
+        <h2>把安心帶回日常餐桌。</h2>
+        <div class="detail-actions">
+          <a class="button primary" href="cart.html">加入購物車</a>
+          <a class="button secondary" href="checkout.html">立即購買</a>
+        </div>
+      </section>
+    </main>
+
+    <script type="application/ld+json">
+      {{PRODUCT_SCHEMA}}
+    </script>
+  </body>
+</html>
