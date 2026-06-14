@@ -1,94 +1,82 @@
 # 心有戚戚焉 Design System
 
-本文件定義全站共用視覺規範。首頁、商品系列、商品詳情、品牌故事、安心驗證、健康專欄與聯絡我們，皆需使用同一套品牌色票與元件規則。
+本文件記錄目前本機官網原型使用的品牌識別、色票與首頁視覺規範。正式上線前，所有頁面應優先沿用本文件與 `assets/css/styles.css` 的 CSS Variables。
 
-## Design Tokens
+## Logo 規範
 
-全站色彩必須由 CSS Variables 管理，不得在頁面或元件中自行新增不同綠色或橘金色。
+- 正式 Logo：繁體中文「戚」字＋稻穗外框版本。
+- 網站使用路徑：`assets/images/logo-qih-final-transparent.png`
+- Header、Hero 與獨立商品/購物頁 Logo 均使用同一檔案。
+- 禁止使用舊版 Logo、AI 重繪 Logo、簡化版 Logo。
+- 舊檔 `logo-qih.png`、`logo-qih-final.png` 保留備份，不刪除。
+
+## 品牌色票
 
 ```css
 :root {
-  --brand-green: #006B36;
-  --brand-green-dark: #00512A;
-  --gold-primary: #D9B45A;
-  --gold-dark: #C89B3C;
-  --gold-light: #F2D27A;
-  --gold-deep: #A97821;
+  --brand-green: #0B6B3A;
+  --brand-green-dark: #0B6B3A;
+  --gold-primary: #E5C66A;
+  --gold-dark: #E5C66A;
+  --gold-light: #E5C66A;
+  --gold-deep: #E5C66A;
+  --neutral-white: #F7F3E9;
 }
 ```
 
-使用方向：
-- `--brand-green`：Header、品牌識別區、主要品牌背景
-- `--brand-green-dark`：深層背景、商品頁與內容區塊
-- `--gold-primary`：Header 文字、品牌名稱、主要金色文字
-- `--gold-dark`：金色漸層深色、陰影層次
-- `--gold-light`：金色漸層亮面、Hover 高光
-- `--gold-deep`：品牌名稱漸層最深處，增加精品金屬質感
+主要使用：
 
-禁止：
-- 不同頁面使用不同綠色
-- 橘金色
-- 米黃色背景
-- 灰綠與莫蘭迪綠
-- 黑金精品風
+- 土地綠 `#0B6B3A`：Header、主要背景、區塊基底。
+- 米白 `#F7F3E9`：文字、留白、輕量背景。
+- 稻穗金 `#E5C66A`：Logo 搭配、品牌標題、按鈕與重點資訊。
+
+禁止使用：
+
+- 深墨綠
+- 黑綠色
+- 藍綠色
+- 灰綠色
 
 ## Header
 
-Header 固定於頁面最上方。
-
-結構：
-- 左側：正式 Logo + 品牌名稱「心有戚戚焉」
-- 中間：首頁、品牌故事、商品系列、安心驗證、健康專欄、聯絡我們
-- 右側：會員登入、收藏商品、訂單查詢、購物車
-
-視覺：
-- 背景：`--brand-green`
-- 所有文字：`--gold-primary`
-- Hover：`--gold-light`
-- Logo 與品牌名稱垂直置中
-
-## 品牌識別區
-
-品牌識別區置於 Header 下方。
-
-內容：
-- 上方：正式 Logo
-- 中間：心有戚戚焉
-- 下方：為健康把關
-- 品牌理念：善待土地．善待作物．善待健康
-
-視覺：
-- 背景：`--brand-green`
-- 品牌名稱 72px 以上
-- 品牌名稱使用 `Noto Serif TC`, `Source Han Serif TC`, serif
-- 品牌名稱字重 700，字距 0.04em
-- 品牌名稱使用 `#F2D27A`、`#D9B45A`、`#C89B3C`、`#A97821` 金色漸層
-- 品牌標語為白色，字重較輕，尺寸約品牌名稱 35-40%
-- 品牌理念使用品牌金色
-- 區塊高度約 220-280px，不得過高壓縮 Hero
-- Logo 保留原始 PNG，不重新繪製
+- Header 固定於頁面頂部。
+- 左側顯示正式 Logo 與品牌名稱「心有戚戚焉」。
+- 導覽與購物連結沿用稻穗金。
+- Header Logo 使用 `assets/images/logo-qih-final-transparent.png`。
 
 ## Hero
 
-Hero 主視覺置於品牌識別區下方。
+Hero 以品牌識別與信任感為主，不過度強調單一米種。
 
-圖片方向：
-- 宜蘭三星晨霧稻田
-- 遠方山脈
-- 晨光灑落
-- 成熟稻穗特寫
-- 自然景深
+主文案：
 
-禁止：
-- 人物
-- 農夫
-- 稻草人
-- 插畫
+```text
+心有戚戚焉
+為健康把關
 
-Hero 文字：
-- 從宜蘭三星出發，
-- 以有機耕作守護土地，以誠實農產守護家人的餐桌。
+從健康土壤開始，
+守護每一口安心。
+
+381項 SGS 檢驗合格
+一年一期自然熟成
+```
 
 CTA：
-- 探索長秈10號系列
-- 品牌故事
+
+- 主要按鈕：立即選購
+- 次要按鈕：認識品牌
+
+Hero Logo：
+
+- 使用正式透明 PNG。
+- 尺寸需小於品牌名稱，品牌名稱為第一視覺主角。
+
+## 首頁區塊順序
+
+1. Hero
+2. 品牌核心價值
+3. 人氣商品
+4. 安心驗證
+5. 購物流程
+6. 品牌故事導引
+7. Footer

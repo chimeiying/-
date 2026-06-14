@@ -18,7 +18,7 @@ export function renderHeader(currentPath = "/", cartCount = 0) {
   return `
     <header class="site-header" data-site-header>
       <a class="header-brand-link" href="#/" aria-label="回到首頁">
-        <img class="header-logo" src="assets/images/logo-qih.png?v=20260609-logo" alt="心有戚戚焉正式Logo">
+        <img class="header-logo" src="assets/images/logo-qih-final-transparent.png?v=20260614-hero-slides-2" alt="心有戚戚焉正式Logo">
         <strong>心有戚戚焉</strong>
       </a>
       <button class="menu-toggle" type="button" aria-label="開啟選單" data-menu-toggle>
