@@ -1,15 +1,20 @@
-export function productCard(product) {
+export function productCard(product, options = {}) {
   const features = product.features.map((feature) => `<span>${feature}</span>`).join("");
+  const badge = product.badge ? `<p class="badge">${product.badge}</p>` : "";
+  const subtitle = product.subtitle || product.shortDescription || product.description || "";
+  const cardMeta = options.featured && product.weight ? `${product.weight}｜${subtitle}` : subtitle;
+  const featuredClass = options.featured ? " product-card-featured" : "";
+  const featureRow = options.featured ? "" : `<div class="feature-row">${features}</div>`;
   return `
-    <article class="product-card">
+    <article class="product-card${featuredClass} product-card-${product.id}">
       <a href="#/product/${product.id}" aria-label="查看 ${product.name}">
         <img src="${product.image}" alt="${product.name}">
       </a>
       <div class="product-card-body">
-        <p class="badge">${product.badge}</p>
+        ${options.featured ? "" : badge}
         <h3>${product.name}</h3>
-        <p>${product.subtitle}</p>
-        <div class="feature-row">${features}</div>
+        ${cardMeta ? `<p>${cardMeta}</p>` : ""}
+        ${featureRow}
         <div class="product-card-footer">
           <strong>NT$ ${product.price}</strong>
           <div class="card-actions">

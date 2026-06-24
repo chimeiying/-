@@ -3,49 +3,101 @@
     "id": "hs10-white-rice",
     "name": "長秈10號白米",
     "category": "米食系列",
-    "price": 360,
-    "weight": "1.5kg",
-    "image": "assets/images/product-premium.svg",
+    "price": 207,
+    "weight": "1kg",
+    "image": "assets/images/product-rice-white.png",
+    "subtitle": "一年一期自然熟成",
     "description": "米粒修長、口感清爽，適合每日餐桌。",
-    "features": ["台中長秈10號米種", "一年一期自然熟成", "低溫碾製"],
-    "ksp": ["清爽粒感", "宜蘭三星有機農業基礎", "批次追溯更安心"],
-    "verification": ["有機農業管理", "SGS檢驗", "批次追溯"]
+    "features": [
+      "台中長秈10號米種",
+      "一年一期自然熟成",
+      "低溫碾製"
+    ],
+    "ksp": [
+      "清爽粒感",
+      "宜蘭三星有機農業基礎",
+      "批次追溯更安心"
+    ],
+    "verification": [
+      "有機農業管理",
+      "SGS檢驗",
+      "批次追溯"
+    ]
   },
   {
     "id": "hs10-germ-rice",
     "name": "長秈10號胚芽米",
     "category": "米食系列",
-    "price": 390,
-    "weight": "1.2kg",
-    "image": "assets/images/product-germ.svg",
+    "price": 207,
+    "weight": "1kg",
+    "image": "assets/images/product-rice-germ.png",
+    "subtitle": "保留胚芽營養",
     "description": "保留胚芽，兼顧米香與營養。",
-    "features": ["保留胚芽", "穀香溫潤", "適合混米"],
-    "ksp": ["比糙米柔和", "比白米多穀香", "適合家庭健康飲食"],
-    "verification": ["有機農業管理", "低溫保存", "批次碾製紀錄"]
+    "features": [
+      "保留胚芽",
+      "穀香溫潤",
+      "適合混米"
+    ],
+    "ksp": [
+      "比糙米柔和",
+      "比白米多穀香",
+      "適合家庭健康飲食"
+    ],
+    "verification": [
+      "有機農業管理",
+      "低溫保存",
+      "批次碾製紀錄"
+    ]
   },
   {
     "id": "hs10-brown-rice",
     "name": "長秈10號糙米",
     "category": "米食系列",
-    "price": 320,
-    "weight": "1.2kg",
-    "image": "assets/images/product-brown.svg",
+    "price": 207,
+    "weight": "1kg",
+    "image": "assets/images/product-rice-brown.png",
+    "subtitle": "完整穀香纖維",
     "description": "完整米糠層，飽足感更好。",
-    "features": ["完整穀香", "纖維感佳", "適合養生餐盤"],
-    "ksp": ["原型米食", "穀香完整", "適合混米與健康餐盤"],
-    "verification": ["有機農業管理", "SGS檢驗", "批次追溯"]
+    "features": [
+      "完整穀香",
+      "纖維感佳",
+      "適合養生餐盤"
+    ],
+    "ksp": [
+      "原型米食",
+      "穀香完整",
+      "適合混米與健康餐盤"
+    ],
+    "verification": [
+      "有機農業管理",
+      "SGS檢驗",
+      "批次追溯"
+    ]
   },
   {
     "id": "purple-rice",
     "name": "紫米",
     "category": "米食系列",
-    "price": 280,
+    "price": 267,
     "weight": "600g",
-    "image": "assets/images/product-purple.svg",
+    "image": "assets/images/product-rice-purple.png",
+    "subtitle": "天然黑晶色澤",
     "description": "深色穀物香，甜鹹料理皆宜。",
-    "features": ["天然紫黑色澤", "穀香濃郁", "甜湯飯食皆宜"],
-    "ksp": ["原型穀物", "適合混米", "日常補充深色穀物"],
-    "verification": ["來源管理", "批次檢驗", "低溫保存"]
+    "features": [
+      "天然紫黑色澤",
+      "穀香濃郁",
+      "甜湯飯食皆宜"
+    ],
+    "ksp": [
+      "原型穀物",
+      "適合混米",
+      "日常補充深色穀物"
+    ],
+    "verification": [
+      "來源管理",
+      "批次檢驗",
+      "低溫保存"
+    ]
   },
   {
     "id": "organic-black-soybean",
@@ -55,9 +107,21 @@
     "weight": "500g",
     "image": "assets/images/product-bean.svg",
     "description": "豆香厚實，適合豆漿、黑豆茶與料理。",
-    "features": ["有機栽培", "顆粒飽滿", "適合煮豆漿"],
-    "ksp": ["有機黑豆來源", "豆香濃厚", "可延伸多種健康料理"],
-    "verification": ["有機驗證", "SGS檢驗", "產地追溯"]
+    "features": [
+      "有機栽培",
+      "顆粒飽滿",
+      "適合煮豆漿"
+    ],
+    "ksp": [
+      "有機黑豆來源",
+      "豆香濃厚",
+      "可延伸多種健康料理"
+    ],
+    "verification": [
+      "有機驗證",
+      "SGS檢驗",
+      "產地追溯"
+    ]
   },
   {
     "id": "organic-black-soymilk",
@@ -67,9 +131,21 @@
     "weight": "250ml x 6",
     "image": "assets/images/product-soymilk.svg",
     "description": "自然豆香，日常補充剛剛好。",
-    "features": ["有機黑豆製成", "無添加香精", "細緻豆香"],
-    "ksp": ["早餐與運動後適合", "無負擔豆飲", "保留黑豆自然香氣"],
-    "verification": ["有機原料", "食品安全檢驗", "製程批次管理"]
+    "features": [
+      "有機黑豆製成",
+      "無添加香精",
+      "細緻豆香"
+    ],
+    "ksp": [
+      "早餐與運動後適合",
+      "無負擔豆飲",
+      "保留黑豆自然香氣"
+    ],
+    "verification": [
+      "有機原料",
+      "食品安全檢驗",
+      "製程批次管理"
+    ]
   },
   {
     "id": "rice-bran-tea",
@@ -79,9 +155,21 @@
     "weight": "12入",
     "image": "assets/images/product-tea.svg",
     "description": "無咖啡因，穀香溫潤回甘。",
-    "features": ["米糠烘焙", "無咖啡因", "飯後午後皆宜"],
-    "ksp": ["珍惜米糠價值", "無咖啡因養生茶", "溫潤穀香"],
-    "verification": ["原料批次管理", "食品安全檢驗", "無咖啡因"]
+    "features": [
+      "米糠烘焙",
+      "無咖啡因",
+      "飯後午後皆宜"
+    ],
+    "ksp": [
+      "珍惜米糠價值",
+      "無咖啡因養生茶",
+      "溫潤穀香"
+    ],
+    "verification": [
+      "原料批次管理",
+      "食品安全檢驗",
+      "無咖啡因"
+    ]
   },
   {
     "id": "apple-vinegar",
@@ -91,9 +179,21 @@
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
     "description": "清爽果酸，適合日常調飲。",
-    "features": ["果香明亮", "冷熱皆宜", "可調飲入菜"],
-    "ksp": ["果香清爽", "氣泡水好搭", "可作料理調味"],
-    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"]
+    "features": [
+      "果香明亮",
+      "冷熱皆宜",
+      "可調飲入菜"
+    ],
+    "ksp": [
+      "果香清爽",
+      "氣泡水好搭",
+      "可作料理調味"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "原料來源管理",
+      "批次製程紀錄"
+    ]
   },
   {
     "id": "plum-vinegar",
@@ -103,9 +203,21 @@
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
     "description": "梅香甘酸，飯後剛好。",
-    "features": ["梅子香氣", "酸甜平衡", "適合飯後"],
-    "ksp": ["梅香回甘", "餐後調飲", "酸甜口感平衡"],
-    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"]
+    "features": [
+      "梅子香氣",
+      "酸甜平衡",
+      "適合飯後"
+    ],
+    "ksp": [
+      "梅香回甘",
+      "餐後調飲",
+      "酸甜口感平衡"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "原料來源管理",
+      "批次製程紀錄"
+    ]
   },
   {
     "id": "grape-vinegar",
@@ -115,9 +227,21 @@
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
     "description": "果香濃郁，酸甜柔順。",
-    "features": ["葡萄香氣", "酸感柔順", "氣泡水好搭"],
-    "ksp": ["果香濃郁", "日常氣泡飲", "酸甜不厚重"],
-    "verification": ["食品安全檢驗", "原料來源管理", "批次製程紀錄"]
+    "features": [
+      "葡萄香氣",
+      "酸感柔順",
+      "氣泡水好搭"
+    ],
+    "ksp": [
+      "果香濃郁",
+      "日常氣泡飲",
+      "酸甜不厚重"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "原料來源管理",
+      "批次製程紀錄"
+    ]
   },
   {
     "id": "black-soybean-roll",
@@ -127,9 +251,21 @@
     "weight": "8入",
     "image": "assets/images/product-snack.svg",
     "description": "黑豆香氣，酥鬆不厚重。",
-    "features": ["黑豆入味", "酥鬆口感", "茶點合適"],
-    "ksp": ["黑豆香氣", "健康茶點", "適合禮盒搭配"],
-    "verification": ["食品安全檢驗", "製程批次管理", "原料來源管理"]
+    "features": [
+      "黑豆入味",
+      "酥鬆口感",
+      "茶點合適"
+    ],
+    "ksp": [
+      "黑豆香氣",
+      "健康茶點",
+      "適合禮盒搭配"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "製程批次管理",
+      "原料來源管理"
+    ]
   },
   {
     "id": "rice-puff",
@@ -139,9 +275,21 @@
     "weight": "100g",
     "image": "assets/images/product-snack.svg",
     "description": "輕盈米香，嘴饞也安心。",
-    "features": ["米香輕盈", "口感酥脆", "適合日常分享"],
-    "ksp": ["米食延伸點心", "辦公室與親子分享", "少負擔零食"],
-    "verification": ["食品安全檢驗", "製程批次管理", "原料來源管理"]
+    "features": [
+      "米香輕盈",
+      "口感酥脆",
+      "適合日常分享"
+    ],
+    "ksp": [
+      "米食延伸點心",
+      "辦公室與親子分享",
+      "少負擔零食"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "製程批次管理",
+      "原料來源管理"
+    ]
   },
   {
     "id": "rice-cracker",
@@ -151,8 +299,20 @@
     "weight": "120g",
     "image": "assets/images/product-snack.svg",
     "description": "米香酥脆，簡單耐吃。",
-    "features": ["米製作", "酥脆米香", "日常輕點"],
-    "ksp": ["自然米香", "簡單點心", "適合家庭分享"],
-    "verification": ["食品安全檢驗", "製程批次管理", "原料來源管理"]
+    "features": [
+      "米製作",
+      "酥脆米香",
+      "日常輕點"
+    ],
+    "ksp": [
+      "自然米香",
+      "簡單點心",
+      "適合家庭分享"
+    ],
+    "verification": [
+      "食品安全檢驗",
+      "製程批次管理",
+      "原料來源管理"
+    ]
   }
 ]

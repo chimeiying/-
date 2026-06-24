@@ -49,7 +49,7 @@ const shoppingSteps = [
 let heroCarouselTimer = null;
 
 export function homePage({ products }) {
-  const bestSellers = products.slice(0, 4).map(productCard).join("");
+  const bestSellers = products.slice(0, 4).map((product) => productCard(product, { featured: true })).join("");
 
   return `
     <section class="hero-section brand-hero hero-carousel" data-hero-carousel>
