@@ -1528,6 +1528,17 @@ main {
     min-height: 600px;
   }
 
+  .hero-slide-brand .hero-copy {
+    max-width: calc(100vw - 32px);
+  }
+
+  .hero-slide-brand .hero-copy h1 {
+    font-size: clamp(36px, 10vw, 42px);
+    line-height: 1.08;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+
   .hero-slide-compact {
     align-items: start;
     justify-items: start;
@@ -1535,22 +1546,27 @@ main {
   }
 
   .hero-slide-compact:nth-of-type(2) .hero-image img {
-    object-position: 42% center;
+    object-position: 62% center;
   }
 
   .hero-slide-compact:nth-of-type(3) .hero-image img {
-    object-position: 58% center;
+    object-position: 45% center;
   }
 
   .hero-slide-compact .hero-copy {
     justify-items: start;
-    max-width: 248px;
+    max-width: 160px;
     margin: 0;
     text-align: left;
   }
 
   .hero-slide-compact .hero-copy h1 {
-    font-size: 34px;
-    line-height: 1.16;
+    font-size: 30px;
+    line-height: 1.18;
+  }
+
+  .hero-slide-compact .hero-copy p {
+    font-size: 15px !important;
+    line-height: 1.55;
   }
 }
