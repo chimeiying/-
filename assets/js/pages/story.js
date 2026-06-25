@@ -60,7 +60,9 @@ export function storyPage() {
           <div class="brand-story-feature-copy">
             <span>①</span>
             <h3>一年一期</h3>
-            <p>把時間留給土地，也把風味留給作物。每一次收成，都順著自然節奏慢慢完成。</p>
+            <p>一年，只等待一次成熟。</p>
+            <p>我們相信，<br>真正值得入口的食物，<br>值得花時間等待。</p>
+            <p>不搶收、不催熟，<br>讓土地依照四季節奏，<br>孕育最自然的風味。</p>
           </div>
         </article>
         <article>
@@ -68,7 +70,8 @@ export function storyPage() {
           <div class="brand-story-feature-copy">
             <span>②</span>
             <h3>自然熟成</h3>
-            <p>從土壤到穀粒，讓作物在陽光、空氣與季節裡累積乾淨而溫潤的香氣。</p>
+            <p>從土壤開始，<br>讓每一株稻穗在陽光、<br>雨水與時間中自然成熟。</p>
+            <p>真正的風味，<br>來自耐心，<br>而不是速度。</p>
           </div>
         </article>
         <article>
@@ -76,31 +79,56 @@ export function storyPage() {
           <div class="brand-story-feature-copy">
             <span>③</span>
             <h3>接單現碾</h3>
-            <p>保留穀物最接近新鮮的狀態，在需要時才細緻處理，讓米香回到餐桌。</p>
+            <p>每一張訂單，<br>都是一份新的開始。</p>
+            <p>接到訂單後才開始碾米，<br>保留米粒最新鮮的香氣、<br>甜味與口感。</p>
+            <p>讓每一包，<br>都是最新鮮的狀態。</p>
           </div>
         </article>
         <article>
-          <img class="brand-story-feature-image" src="assets/images/brand-story/06-taichung-rice10.jpg" alt="台中長秈10號稻米">
+          <img class="brand-story-feature-image brand-story-feature-image-rice" src="assets/images/brand-story/06-taichung-rice10.jpg" alt="台中長秈10號米飯局部">
           <div class="brand-story-feature-copy">
             <span>④</span>
             <h3>台中長秈10號</h3>
-            <p>選擇適合台灣風土的米種，以清爽口感與細緻香氣，成為日常餐桌的主角。</p>
+            <p>選擇好的品種，<br>不是追求高產量。</p>
+            <p>而是選擇真正適合土地、<br>適合品牌，<br>也適合每天餐桌的好米。</p>
           </div>
         </article>
       </div>
     </section>
 
     <section class="section brand-story-verification">
-      <div class="brand-story-verification-panel">
+      <div class="section-heading centered brand-story-section-heading">
         <p class="eyebrow">Verification</p>
-        <h2>安心驗證</h2>
-        <p>驗證內容與檢驗資訊將於下一階段補上。</p>
+        <h2>安心，不只是口號。</h2>
+        <p>每一份安心，<br>都有真實數據與透明資訊支持。</p>
+      </div>
+      <div class="brand-story-verification-grid">
+        <article>
+          <span aria-hidden="true"></span>
+          <h3>381項 SGS 農藥殘留檢驗</h3>
+        </article>
+        <article>
+          <span aria-hidden="true"></span>
+          <h3>有機驗證</h3>
+        </article>
+        <article>
+          <span aria-hidden="true"></span>
+          <h3>產地透明</h3>
+        </article>
+        <article>
+          <span aria-hidden="true"></span>
+          <h3>品質把關</h3>
+        </article>
       </div>
     </section>
 
     <section class="section brand-story-cta">
-      <h2>把安心帶回家</h2>
-      <a class="button primary" href="#/series">探索商品</a>
+      <div>
+        <h2>把安心帶回家</h2>
+        <p>每一粒米，<br>都是土地、時間與職人的承諾。</p>
+        <p>現在，<br>就讓這份安心，<br>走進你的餐桌。</p>
+      </div>
+      <a class="button primary" href="#/series">探索商品 →</a>
     </section>
   `;
 }
