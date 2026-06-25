@@ -56,31 +56,35 @@ export function storyPage() {
       </div>
       <div class="brand-story-feature-list">
         <article>
-          <div class="brand-story-feature-image" aria-label="一年一期圖片預留區"></div>
+          <img class="brand-story-feature-image" src="assets/images/brand-story/04-terrace.jpg" alt="一年一期的梯田風景">
           <div class="brand-story-feature-copy">
+            <span>①</span>
             <h3>一年一期</h3>
-            <p></p>
+            <p>把時間留給土地，也把風味留給作物。每一次收成，都順著自然節奏慢慢完成。</p>
           </div>
         </article>
         <article>
-          <div class="brand-story-feature-image" aria-label="自然熟成圖片預留區"></div>
+          <img class="brand-story-feature-image" src="assets/images/brand-story/01-soil.png" alt="自然熟成的土壤與稻苗">
           <div class="brand-story-feature-copy">
+            <span>②</span>
             <h3>自然熟成</h3>
-            <p></p>
+            <p>從土壤到穀粒，讓作物在陽光、空氣與季節裡累積乾淨而溫潤的香氣。</p>
           </div>
         </article>
         <article>
-          <div class="brand-story-feature-image" aria-label="接單現碾圖片預留區"></div>
+          <img class="brand-story-feature-image" src="assets/images/brand-story/02-crops.png" alt="接單現碾前的成熟作物">
           <div class="brand-story-feature-copy">
+            <span>③</span>
             <h3>接單現碾</h3>
-            <p></p>
+            <p>保留穀物最接近新鮮的狀態，在需要時才細緻處理，讓米香回到餐桌。</p>
           </div>
         </article>
         <article>
-          <div class="brand-story-feature-image" aria-label="台中長秈10號圖片預留區"></div>
+          <img class="brand-story-feature-image" src="assets/images/brand-story/06-taichung-rice10.jpg" alt="台中長秈10號稻米">
           <div class="brand-story-feature-copy">
+            <span>④</span>
             <h3>台中長秈10號</h3>
-            <p></p>
+            <p>選擇適合台灣風土的米種，以清爽口感與細緻香氣，成為日常餐桌的主角。</p>
           </div>
         </article>
       </div>
