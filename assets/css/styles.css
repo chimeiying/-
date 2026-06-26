@@ -1338,16 +1338,11 @@ main {
 
 .brand-story-soil-table-step {
   display: grid;
-  grid-template-columns: minmax(0, 60fr) minmax(0, 40fr);
-  gap: 60px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 72px;
   align-items: center;
   min-height: 640px;
   padding: 40px 0;
-}
-
-.brand-story-soil-table-step:nth-child(2),
-.brand-story-soil-table-step:nth-child(4) {
-  grid-template-columns: minmax(0, 40fr) minmax(0, 60fr);
 }
 
 .brand-story-soil-table-step:nth-child(even) .brand-story-soil-table-image {
@@ -1362,7 +1357,7 @@ main {
   object-position: center center;
   background: var(--green);
   border-radius: 24px;
-  box-shadow: var(--shadow);
+  box-shadow: none;
   box-sizing: border-box;
 }
 
@@ -1373,7 +1368,7 @@ main {
 
 .brand-story-soil-table-copy span {
   display: block;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   color: var(--gold);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 64px;
@@ -1382,7 +1377,7 @@ main {
 }
 
 .brand-story-soil-table-copy h3 {
-  margin: 0 0 28px;
+  margin: 0 0 36px;
   color: var(--gold);
   font-size: 60px;
   font-weight: 600;
@@ -1411,11 +1406,9 @@ main {
     gap: 64px;
   }
 
-  .brand-story-soil-table-step,
-  .brand-story-soil-table-step:nth-child(2),
-  .brand-story-soil-table-step:nth-child(4) {
+  .brand-story-soil-table-step {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 60px;
+    gap: 72px;
   }
 
   .brand-story-soil-table-copy h3 {
