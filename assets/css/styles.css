@@ -1315,7 +1315,7 @@ main {
 
 .brand-story-soil-table-heading {
   width: min(100%, 1440px);
-  margin: 0 auto 96px;
+  margin: 0 auto 82px;
 }
 
 .brand-story-soil-table-heading h2 {
@@ -1333,42 +1333,21 @@ main {
   width: min(100%, 1440px);
   margin: 0 auto;
   display: grid;
-  gap: 92px;
+  gap: 80px;
 }
 
 .brand-story-soil-table-step {
   display: grid;
   grid-template-columns: minmax(0, 60fr) minmax(0, 40fr);
-  gap: 80px;
+  gap: 60px;
   align-items: center;
-  min-height: 680px;
-  padding: 48px 0;
-}
-
-.brand-story-soil-table-step:nth-child(1),
-.brand-story-soil-table-step:nth-child(4) {
-  grid-template-columns: minmax(0, 65fr) minmax(0, 35fr);
-}
-
-.brand-story-soil-table-step:nth-child(1) {
-  grid-template-columns: minmax(0, 60fr) minmax(0, 40fr);
+  min-height: 640px;
+  padding: 24px 0;
 }
 
 .brand-story-soil-table-step:nth-child(2),
 .brand-story-soil-table-step:nth-child(4) {
-  grid-template-columns: minmax(0, 45fr) minmax(0, 55fr);
-}
-
-.brand-story-soil-table-step:nth-child(4) {
-  grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
-}
-
-.brand-story-soil-table-step:nth-child(3) {
-  grid-template-columns: minmax(0, 50fr) minmax(0, 50fr);
-}
-
-.brand-story-soil-table-step:nth-child(5) {
-  grid-template-columns: minmax(0, 55fr) minmax(0, 45fr);
+  grid-template-columns: minmax(0, 40fr) minmax(0, 60fr);
 }
 
 .brand-story-soil-table-step:nth-child(even) .brand-story-soil-table-image {
@@ -1377,7 +1356,7 @@ main {
 
 .brand-story-soil-table-image {
   width: 100%;
-  height: clamp(520px, 30vw, 580px);
+  height: clamp(570px, 31.5vw, 610px);
   object-fit: cover;
   object-position: center center;
   border-radius: 24px;
@@ -1385,7 +1364,10 @@ main {
 }
 
 .brand-story-soil-table-step:nth-child(1) .brand-story-soil-table-image {
-  object-position: 53% center;
+  height: clamp(420px, 25vw, 500px);
+  object-fit: contain;
+  object-position: center center;
+  background: var(--green);
 }
 
 .brand-story-soil-table-step:nth-child(4) .brand-story-soil-table-image {
@@ -1402,10 +1384,11 @@ main {
 
 .brand-story-soil-table-copy span {
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 14px;
   color: var(--gold);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 34px;
+  font-size: 64px;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -1413,6 +1396,7 @@ main {
   margin: 0 0 28px;
   color: var(--gold);
   font-size: 60px;
+  font-weight: 600;
   line-height: 1.12;
   white-space: nowrap;
 }
