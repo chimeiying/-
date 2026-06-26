@@ -1342,7 +1342,7 @@ main {
   gap: 60px;
   align-items: center;
   min-height: 640px;
-  padding: 24px 0;
+  padding: 40px 0;
 }
 
 .brand-story-soil-table-step:nth-child(2),
@@ -1356,30 +1356,19 @@ main {
 
 .brand-story-soil-table-image {
   width: 100%;
-  height: clamp(570px, 31.5vw, 610px);
-  object-fit: cover;
-  object-position: center center;
-  border-radius: 24px;
-  box-shadow: var(--shadow);
-}
-
-.brand-story-soil-table-step:nth-child(1) .brand-story-soil-table-image {
-  height: clamp(420px, 25vw, 500px);
+  height: 560px;
+  padding: 24px;
   object-fit: contain;
   object-position: center center;
   background: var(--green);
-}
-
-.brand-story-soil-table-step:nth-child(4) .brand-story-soil-table-image {
-  object-position: center center;
-}
-
-.brand-story-soil-table-step:nth-child(5) .brand-story-soil-table-image {
-  object-position: center 56%;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  box-sizing: border-box;
 }
 
 .brand-story-soil-table-copy {
   max-width: 600px;
+  align-self: center;
 }
 
 .brand-story-soil-table-copy span {
@@ -1410,6 +1399,28 @@ main {
 
 .brand-story-soil-table-copy p + p {
   margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .brand-story-soil-table {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .brand-story-soil-table-list {
+    gap: 64px;
+  }
+
+  .brand-story-soil-table-step,
+  .brand-story-soil-table-step:nth-child(2),
+  .brand-story-soil-table-step:nth-child(4) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 60px;
+  }
+
+  .brand-story-soil-table-copy h3 {
+    font-size: clamp(40px, 4.6vw, 54px);
+  }
 }
 
 .contact-form,
