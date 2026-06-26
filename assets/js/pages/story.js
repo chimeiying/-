@@ -48,67 +48,79 @@ export function storyPage() {
     </section>
 
     <section class="section brand-story-soil-table">
-      <div class="section-heading brand-story-section-heading brand-story-soil-table-heading">
-        <div>
-          <p class="eyebrow">From Soil to Table</p>
-          <h2>從土地到餐桌</h2>
-          <p>每一粒安心好米，都有它自己的故事。</p>
+      <div class="brand-story-soil-table-container">
+        <div class="section-heading brand-story-section-heading brand-story-soil-table-heading">
+          <div>
+            <p class="eyebrow">From Soil to Table</p>
+            <h2>從土地到餐桌</h2>
+            <p>每一粒安心好米，都有它自己的故事。</p>
+          </div>
         </div>
-      </div>
 
-      <div class="brand-story-soil-table-list">
-        <section class="brand-story-soil-table-step">
-          <img class="brand-story-soil-table-image" src="assets/images/brand-story/00-precious.jpg" alt="一年只收一期的稻田風景">
-          <div class="brand-story-soil-table-copy">
-            <span>珍</span>
-            <h3>一年只收一期的珍貴</h3>
-            <p>一年，只等待一次成熟。</p>
-            <p>真正值得入口的食物，<br>值得花時間等待。</p>
-          </div>
-        </section>
+        <div class="brand-story-soil-table-list">
+          <article class="brand-story-soil-table-item">
+            <div class="brand-story-soil-table-copy">
+              <span>珍</span>
+              <h3>一年只收一期的珍貴</h3>
+              <p>一年，只等待一次成熟。</p>
+              <p>真正值得入口的食物，<br>值得花時間等待。</p>
+            </div>
+            <figure class="brand-story-soil-table-media">
+              <img src="assets/images/brand-story/00-precious.jpg" alt="一年只收一期的稻田風景">
+            </figure>
+          </article>
 
-        <section class="brand-story-soil-table-step">
-          <img class="brand-story-soil-table-image" src="assets/images/brand-story/01-truth.jpg" alt="農人一步一腳印照顧稻田">
-          <div class="brand-story-soil-table-copy">
-            <span>真</span>
-            <h3>一步一腳印</h3>
-            <p>從插秧、巡田到採收，</p>
-            <p>每一步，<br>都親自完成。</p>
-          </div>
-        </section>
+          <article class="brand-story-soil-table-item">
+            <figure class="brand-story-soil-table-media">
+              <img src="assets/images/brand-story/01-truth.jpg" alt="農人一步一腳印照顧稻田">
+            </figure>
+            <div class="brand-story-soil-table-copy">
+              <span>真</span>
+              <h3>一步一腳印</h3>
+              <p>從插秧、巡田到採收，</p>
+              <p>每一步，<br>都親自完成。</p>
+            </div>
+          </article>
 
-        <section class="brand-story-soil-table-step">
-          <img class="brand-story-soil-table-image" src="assets/images/brand-story/02-kindness.jpg" alt="善待土地孕育作物">
-          <div class="brand-story-soil-table-copy">
-            <span>善</span>
-            <h3>善待土地</h3>
-            <p>善待土地，</p>
-            <p>土地自然回饋最好的作物。</p>
-          </div>
-        </section>
+          <article class="brand-story-soil-table-item">
+            <div class="brand-story-soil-table-copy">
+              <span>善</span>
+              <h3>善待土地</h3>
+              <p>善待土地，</p>
+              <p>土地自然回饋最好的作物。</p>
+            </div>
+            <figure class="brand-story-soil-table-media">
+              <img src="assets/images/brand-story/02-kindness.jpg" alt="善待土地孕育作物">
+            </figure>
+          </article>
 
-        <section class="brand-story-soil-table-step">
-          <img class="brand-story-soil-table-image" src="assets/images/brand-story/03-fresh.jpg" alt="低溫保存維持米的新鮮">
-          <div class="brand-story-soil-table-copy">
-            <span>鮮</span>
-            <h3>低溫保存</h3>
-            <p>低溫烘乾、</p>
-            <p>冷藏保存、</p>
-            <p>只為留住每一粒米的新鮮。</p>
-          </div>
-        </section>
+          <article class="brand-story-soil-table-item">
+            <figure class="brand-story-soil-table-media">
+              <img src="assets/images/brand-story/03-fresh.jpg" alt="低溫保存維持米的新鮮">
+            </figure>
+            <div class="brand-story-soil-table-copy">
+              <span>鮮</span>
+              <h3>低溫保存</h3>
+              <p>低溫烘乾、</p>
+              <p>冷藏保存、</p>
+              <p>只為留住每一粒米的新鮮。</p>
+            </div>
+          </article>
 
-        <section class="brand-story-soil-table-step">
-          <img class="brand-story-soil-table-image" src="assets/images/brand-story/04-fragrance.jpg" alt="接單現碾帶回新鮮米香">
-          <div class="brand-story-soil-table-copy">
-            <span>香</span>
-            <h3>接單現碾</h3>
-            <p>接到訂單，</p>
-            <p>才開始碾米。</p>
-            <p>讓最新鮮的米香，</p>
-            <p>回到每一張餐桌。</p>
-          </div>
-        </section>
+          <article class="brand-story-soil-table-item">
+            <div class="brand-story-soil-table-copy">
+              <span>香</span>
+              <h3>接單現碾</h3>
+              <p>接到訂單，</p>
+              <p>才開始碾米。</p>
+              <p>讓最新鮮的米香，</p>
+              <p>回到每一張餐桌。</p>
+            </div>
+            <figure class="brand-story-soil-table-media">
+              <img src="assets/images/brand-story/04-fragrance.jpg" alt="接單現碾帶回新鮮米香">
+            </figure>
+          </article>
+        </div>
       </div>
     </section>
   `;

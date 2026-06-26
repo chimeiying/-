@@ -1,7 +1,7 @@
 import { renderHeader, bindHeader } from "./components/header.js?v=20260614-hero-mask";
 import { renderFooter } from "./components/footer.js?v=20260614-hero-mask";
 import { homePage, bindHomeCarousel } from "./pages/home.js?v=20260614-hero-mask";
-import { storyPage } from "./pages/story.js?v=20260626-brand-story-v2";
+import { storyPage } from "./pages/story.js?v=20260626-brand-story-component";
 import { seriesPage } from "./pages/series.js?v=20260614-hero-mask";
 import { verificationPage } from "./pages/verification.js?v=20260614-hero-mask";
 import { journalPage } from "./pages/journal.js?v=20260614-hero-mask";

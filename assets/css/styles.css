@@ -1309,13 +1309,19 @@ main {
 }
 
 .brand-story-soil-table {
-  padding: 104px 80px 112px;
+  padding: 0;
   background: var(--green);
 }
 
+.brand-story-soil-table-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 96px 64px;
+  box-sizing: border-box;
+}
+
 .brand-story-soil-table-heading {
-  width: min(100%, 1440px);
-  margin: 0 auto 82px;
+  margin: 0 0 80px;
 }
 
 .brand-story-soil-table-heading h2 {
@@ -1330,45 +1336,54 @@ main {
 }
 
 .brand-story-soil-table-list {
-  width: min(100%, 1440px);
-  margin: 0 auto;
   display: grid;
-  gap: 80px;
+  gap: 72px;
 }
 
-.brand-story-soil-table-step {
+.brand-story-soil-table-item {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 72px;
+  column-gap: 72px;
   align-items: center;
-  min-height: 640px;
-  padding: 40px 0;
+  min-height: 620px;
 }
 
-.brand-story-soil-table-step:nth-child(even) .brand-story-soil-table-image {
-  order: 2;
-}
-
-.brand-story-soil-table-image {
+.brand-story-soil-table-media {
   width: 100%;
-  height: 560px;
+  height: 420px;
+  margin: 0;
   padding: 24px;
-  object-fit: contain;
-  object-position: center center;
-  background: var(--green);
-  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 0;
   box-shadow: none;
+  overflow: visible;
   box-sizing: border-box;
 }
 
+.brand-story-soil-table-media img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .brand-story-soil-table-copy {
-  max-width: 600px;
+  width: 100%;
+  max-width: 520px;
+  justify-self: start;
   align-self: center;
 }
 
 .brand-story-soil-table-copy span {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   color: var(--gold);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 64px;
@@ -1377,43 +1392,22 @@ main {
 }
 
 .brand-story-soil-table-copy h3 {
-  margin: 0 0 36px;
+  margin: 0 0 40px;
   color: var(--gold);
   font-size: 60px;
   font-weight: 600;
-  line-height: 1.12;
-  white-space: nowrap;
+  line-height: 1.2;
 }
 
 .brand-story-soil-table-copy p {
   margin: 0;
   color: var(--cream);
-  font-size: 22px;
-  line-height: 1.9;
+  font-size: 24px;
+  line-height: 2;
 }
 
 .brand-story-soil-table-copy p + p {
-  margin-top: 12px;
-}
-
-@media (max-width: 1200px) {
-  .brand-story-soil-table {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
-  .brand-story-soil-table-list {
-    gap: 64px;
-  }
-
-  .brand-story-soil-table-step {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 72px;
-  }
-
-  .brand-story-soil-table-copy h3 {
-    font-size: clamp(40px, 4.6vw, 54px);
-  }
+  margin-top: 0;
 }
 
 .contact-form,
