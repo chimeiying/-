@@ -7,7 +7,7 @@ export function storyPage() {
     </section>
 
     <section class="section brand-story-belief">
-      <img class="brand-story-image-placeholder" src="assets/images/brand-story/01-soil.png" alt="土壤中生長的稻苗">
+      <img class="brand-story-image-placeholder" src="assets/images/brand-story/01-soil.png?v=20260626-final" alt="土壤中生長的稻苗">
       <div class="brand-story-copy">
         <p class="eyebrow">Our Philosophy</p>
         <h2>善待土地，才能善待作物與健康。</h2>
@@ -24,21 +24,21 @@ export function storyPage() {
       </div>
       <div class="brand-story-card-grid">
         <article>
-          <img class="brand-story-card-image" src="assets/images/brand-story/01-soil.png" alt="土壤中生長的稻苗">
+          <img class="brand-story-card-image" src="assets/images/brand-story/01-soil.png?v=20260626-final" alt="土壤中生長的稻苗">
           <div>
             <h3>善待土地</h3>
             <p>健康的土地，<br>孕育健康的生命。</p>
           </div>
         </article>
         <article>
-          <img class="brand-story-card-image" src="assets/images/brand-story/02-crops.png" alt="自然生長的作物">
+          <img class="brand-story-card-image" src="assets/images/brand-story/02-crops.png?v=20260626-final" alt="自然生長的作物">
           <div>
             <h3>善待作物</h3>
             <p>順應自然節奏，<br>成就每一粒好米。</p>
           </div>
         </article>
         <article>
-          <img class="brand-story-card-image" src="assets/images/brand-story/03-family.png" alt="家人共享安心餐桌">
+          <img class="brand-story-card-image" src="assets/images/brand-story/03-family.png?v=20260626-final" alt="家人共享安心餐桌">
           <div>
             <h3>善待健康</h3>
             <p>把每一口安心，<br>留給最重要的人。</p>
@@ -66,13 +66,13 @@ export function storyPage() {
               <p>真正值得入口的食物，<br>值得花時間等待。</p>
             </div>
             <figure class="brand-story-soil-table-media">
-              <img src="assets/images/brand-story/00-precious.jpg" alt="一年只收一期的稻田風景">
+              <img src="assets/images/brand-story/00-precious.jpg?v=20260626-final" alt="一年只收一期的稻田風景">
             </figure>
           </article>
 
           <article class="brand-story-soil-table-item">
             <figure class="brand-story-soil-table-media">
-              <img src="assets/images/brand-story/01-truth.jpg" alt="農人一步一腳印照顧稻田">
+              <img src="assets/images/brand-story/01-truth.jpg?v=20260626-final" alt="農人一步一腳印照顧稻田">
             </figure>
             <div class="brand-story-soil-table-copy">
               <span>真</span>
@@ -90,13 +90,13 @@ export function storyPage() {
               <p>土地自然回饋最好的作物。</p>
             </div>
             <figure class="brand-story-soil-table-media">
-              <img src="assets/images/brand-story/02-kindness.jpg" alt="善待土地孕育作物">
+              <img src="assets/images/brand-story/02-kindness.jpg?v=20260626-final" alt="善待土地孕育作物">
             </figure>
           </article>
 
           <article class="brand-story-soil-table-item">
             <figure class="brand-story-soil-table-media">
-              <img src="assets/images/brand-story/03-fresh.jpg" alt="低溫保存維持米的新鮮">
+              <img src="assets/images/brand-story/03-fresh.jpg?v=20260626-final" alt="低溫保存維持米的新鮮">
             </figure>
             <div class="brand-story-soil-table-copy">
               <span>鮮</span>
@@ -117,7 +117,7 @@ export function storyPage() {
               <p>回到每一張餐桌。</p>
             </div>
             <figure class="brand-story-soil-table-media">
-              <img src="assets/images/brand-story/04-fragrance.jpg" alt="接單現碾帶回新鮮米香">
+              <img src="assets/images/brand-story/04-fragrance.jpg?v=20260626-final" alt="接單現碾帶回新鮮米香">
             </figure>
           </article>
         </div>
