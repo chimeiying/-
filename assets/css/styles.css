@@ -1314,13 +1314,14 @@ main {
 }
 
 .brand-story-soil-table-container {
-  max-width: 1320px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 96px 64px;
+  padding: 96px 0;
   box-sizing: border-box;
 }
 
 .brand-story-soil-table-heading {
+  padding: 0 80px;
   margin: 0 0 80px;
 }
 
@@ -1337,38 +1338,32 @@ main {
 
 .brand-story-soil-table-list {
   display: grid;
-  gap: 72px;
+  gap: 0;
 }
 
 .brand-story-soil-table-item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  column-gap: 72px;
+  grid-template-columns: 42% 46%;
+  column-gap: 12%;
   align-items: center;
   min-height: 620px;
+  padding: 72px 80px;
+  box-sizing: border-box;
 }
 
 .brand-story-soil-table-media {
   width: 100%;
-  height: 420px;
   margin: 0;
-  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
-  border-radius: 0;
-  box-shadow: none;
-  overflow: visible;
-  box-sizing: border-box;
 }
 
 .brand-story-soil-table-media img {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 620px;
   object-fit: contain;
   border-radius: 0;
   box-shadow: none;
@@ -1383,10 +1378,10 @@ main {
 
 .brand-story-soil-table-copy span {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   color: var(--gold);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1;
 }
@@ -1394,15 +1389,15 @@ main {
 .brand-story-soil-table-copy h3 {
   margin: 0 0 40px;
   color: var(--gold);
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .brand-story-soil-table-copy p {
   margin: 0;
   color: var(--cream);
-  font-size: 24px;
+  font-size: 22px;
   line-height: 2;
 }
 
