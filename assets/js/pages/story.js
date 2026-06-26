@@ -47,88 +47,69 @@ export function storyPage() {
       </div>
     </section>
 
-    <section class="section brand-story-features">
-      <div class="section-heading brand-story-section-heading">
+    <section class="section brand-story-soil-table">
+      <div class="section-heading brand-story-section-heading brand-story-soil-table-heading">
         <div>
-          <p class="eyebrow">How We Make It</p>
-          <h2>我們如何做到</h2>
+          <p class="eyebrow">From Soil to Table</p>
+          <h2>從土地到餐桌</h2>
+          <p>每一粒安心好米，都有它自己的故事。</p>
         </div>
       </div>
-      <div class="brand-story-feature-list">
-        <article>
-          <img class="brand-story-feature-image" src="assets/images/brand-story/04-terrace.jpg" alt="一年一期的梯田風景">
-          <div class="brand-story-feature-copy">
-            <span>①</span>
-            <h3>一年一期</h3>
+
+      <div class="brand-story-soil-table-list">
+        <section class="brand-story-soil-table-step">
+          <img class="brand-story-soil-table-image" src="assets/images/brand-story/00-precious.jpg" alt="一年只收一期的稻田風景">
+          <div class="brand-story-soil-table-copy">
+            <span>珍</span>
+            <h3>一年只收一期的珍貴</h3>
             <p>一年，只等待一次成熟。</p>
-            <p>我們相信，<br>真正值得入口的食物，<br>值得花時間等待。</p>
-            <p>不搶收、不催熟，<br>讓土地依照四季節奏，<br>孕育最自然的風味。</p>
+            <p>真正值得入口的食物，<br>值得花時間等待。</p>
           </div>
-        </article>
-        <article>
-          <img class="brand-story-feature-image" src="assets/images/brand-story/01-soil.png" alt="自然熟成的土壤與稻苗">
-          <div class="brand-story-feature-copy">
-            <span>②</span>
-            <h3>自然熟成</h3>
-            <p>從土壤開始，<br>讓每一株稻穗在陽光、<br>雨水與時間中自然成熟。</p>
-            <p>真正的風味，<br>來自耐心，<br>而不是速度。</p>
+        </section>
+
+        <section class="brand-story-soil-table-step">
+          <img class="brand-story-soil-table-image" src="assets/images/brand-story/01-truth.jpg" alt="農人一步一腳印照顧稻田">
+          <div class="brand-story-soil-table-copy">
+            <span>真</span>
+            <h3>一步一腳印</h3>
+            <p>從插秧、巡田到採收，</p>
+            <p>每一步，<br>都親自完成。</p>
           </div>
-        </article>
-        <article>
-          <img class="brand-story-feature-image" src="assets/images/brand-story/02-crops.png" alt="接單現碾前的成熟作物">
-          <div class="brand-story-feature-copy">
-            <span>③</span>
+        </section>
+
+        <section class="brand-story-soil-table-step">
+          <img class="brand-story-soil-table-image" src="assets/images/brand-story/02-kindness.jpg" alt="善待土地孕育作物">
+          <div class="brand-story-soil-table-copy">
+            <span>善</span>
+            <h3>善待土地</h3>
+            <p>善待土地，</p>
+            <p>土地自然回饋最好的作物。</p>
+          </div>
+        </section>
+
+        <section class="brand-story-soil-table-step">
+          <img class="brand-story-soil-table-image" src="assets/images/brand-story/03-fresh.jpg" alt="低溫保存維持米的新鮮">
+          <div class="brand-story-soil-table-copy">
+            <span>鮮</span>
+            <h3>低溫保存</h3>
+            <p>低溫烘乾、</p>
+            <p>冷藏保存、</p>
+            <p>只為留住每一粒米的新鮮。</p>
+          </div>
+        </section>
+
+        <section class="brand-story-soil-table-step">
+          <img class="brand-story-soil-table-image" src="assets/images/brand-story/04-fragrance.jpg" alt="接單現碾帶回新鮮米香">
+          <div class="brand-story-soil-table-copy">
+            <span>香</span>
             <h3>接單現碾</h3>
-            <p>每一張訂單，<br>都是一份新的開始。</p>
-            <p>接到訂單後才開始碾米，<br>保留米粒最新鮮的香氣、<br>甜味與口感。</p>
-            <p>讓每一包，<br>都是最新鮮的狀態。</p>
+            <p>接到訂單，</p>
+            <p>才開始碾米。</p>
+            <p>讓最新鮮的米香，</p>
+            <p>回到每一張餐桌。</p>
           </div>
-        </article>
-        <article>
-          <img class="brand-story-feature-image brand-story-feature-image-rice" src="assets/images/brand-story/06-taichung-rice10.jpg" alt="台中長秈10號米飯局部">
-          <div class="brand-story-feature-copy">
-            <span>④</span>
-            <h3>台中長秈10號</h3>
-            <p>選擇好的品種，<br>不是追求高產量。</p>
-            <p>而是選擇真正適合土地、<br>適合品牌，<br>也適合每天餐桌的好米。</p>
-          </div>
-        </article>
+        </section>
       </div>
-    </section>
-
-    <section class="section brand-story-verification">
-      <div class="section-heading centered brand-story-section-heading">
-        <p class="eyebrow">Verification</p>
-        <h2>安心，不只是口號。</h2>
-        <p>每一份安心，<br>都有真實數據與透明資訊支持。</p>
-      </div>
-      <div class="brand-story-verification-grid">
-        <article>
-          <span aria-hidden="true"></span>
-          <h3>381項 SGS 農藥殘留檢驗</h3>
-        </article>
-        <article>
-          <span aria-hidden="true"></span>
-          <h3>有機驗證</h3>
-        </article>
-        <article>
-          <span aria-hidden="true"></span>
-          <h3>產地透明</h3>
-        </article>
-        <article>
-          <span aria-hidden="true"></span>
-          <h3>品質把關</h3>
-        </article>
-      </div>
-    </section>
-
-    <section class="section brand-story-cta">
-      <div>
-        <h2>把安心帶回家</h2>
-        <p>每一粒米，<br>都是土地、時間與職人的承諾。</p>
-        <p>現在，<br>就讓這份安心，<br>走進你的餐桌。</p>
-      </div>
-      <a class="button primary" href="#/series">探索商品 →</a>
     </section>
   `;
 }
