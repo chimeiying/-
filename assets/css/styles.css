@@ -784,8 +784,8 @@ main {
 .product-card img {
   width: auto;
   height: auto;
-  max-width: 90%;
-  max-height: 306px;
+  max-width: 97%;
+  max-height: 330px;
   object-fit: contain;
   object-position: center center;
   background: var(--neutral-white);
