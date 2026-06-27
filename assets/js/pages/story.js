@@ -7,7 +7,7 @@ export function storyPage() {
     </section>
 
     <section class="section brand-story-belief">
-      <img class="brand-story-image-placeholder" src="assets/images/brand-story/01-soil.png?v=20260626-final" alt="土壤中生長的稻苗">
+      <img class="brand-story-image-placeholder" src="assets/images/brand-story/05-terrace.jpg" alt="土壤中生長的稻苗">
       <div class="brand-story-copy">
         <p class="eyebrow">Our Philosophy</p>
         <h2>善待土地，才能善待作物與健康。</h2>
@@ -58,23 +58,23 @@ export function storyPage() {
         </div>
 
         <div class="brand-story-soil-table-list">
-          <article class="brand-story-soil-table-item">
-            <div class="brand-story-soil-table-copy">
+          <article class="story-item">
+            <div class="story-copy">
               <span>珍</span>
               <h3>一年只收一期的珍貴</h3>
               <p>一年，只等待一次成熟。</p>
               <p>真正值得入口的食物，<br>值得花時間等待。</p>
             </div>
-            <figure class="brand-story-soil-table-media">
+            <figure class="story-media">
               <img src="assets/images/brand-story/00-precious.jpg?v=20260626-final" alt="一年只收一期的稻田風景">
             </figure>
           </article>
 
-          <article class="brand-story-soil-table-item">
-            <figure class="brand-story-soil-table-media">
+          <article class="story-item">
+            <figure class="story-media">
               <img src="assets/images/brand-story/01-truth.jpg?v=20260626-final" alt="農人一步一腳印照顧稻田">
             </figure>
-            <div class="brand-story-soil-table-copy">
+            <div class="story-copy">
               <span>真</span>
               <h3>一步一腳印</h3>
               <p>從插秧、巡田到採收，</p>
@@ -82,23 +82,23 @@ export function storyPage() {
             </div>
           </article>
 
-          <article class="brand-story-soil-table-item">
-            <div class="brand-story-soil-table-copy">
+          <article class="story-item">
+            <div class="story-copy">
               <span>善</span>
               <h3>善待土地</h3>
               <p>善待土地，</p>
               <p>土地自然回饋最好的作物。</p>
             </div>
-            <figure class="brand-story-soil-table-media">
+            <figure class="story-media">
               <img src="assets/images/brand-story/02-kindness.jpg?v=20260626-final" alt="善待土地孕育作物">
             </figure>
           </article>
 
-          <article class="brand-story-soil-table-item">
-            <figure class="brand-story-soil-table-media">
+          <article class="story-item">
+            <figure class="story-media">
               <img src="assets/images/brand-story/03-fresh.jpg?v=20260626-final" alt="低溫保存維持米的新鮮">
             </figure>
-            <div class="brand-story-soil-table-copy">
+            <div class="story-copy">
               <span>鮮</span>
               <h3>低溫保存</h3>
               <p>低溫烘乾、</p>
@@ -107,8 +107,8 @@ export function storyPage() {
             </div>
           </article>
 
-          <article class="brand-story-soil-table-item">
-            <div class="brand-story-soil-table-copy">
+          <article class="story-item">
+            <div class="story-copy">
               <span>香</span>
               <h3>接單現碾</h3>
               <p>接到訂單，</p>
@@ -116,7 +116,7 @@ export function storyPage() {
               <p>讓最新鮮的米香，</p>
               <p>回到每一張餐桌。</p>
             </div>
-            <figure class="brand-story-soil-table-media">
+            <figure class="story-media">
               <img src="assets/images/brand-story/04-fragrance.jpg?v=20260626-final" alt="接單現碾帶回新鮮米香">
             </figure>
           </article>
