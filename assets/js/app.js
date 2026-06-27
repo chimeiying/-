@@ -1,11 +1,11 @@
 import { renderHeader, bindHeader } from "./components/header.js?v=20260614-hero-mask";
 import { renderFooter } from "./components/footer.js?v=20260614-hero-mask";
-import { homePage, bindHomeCarousel } from "./pages/home.js?v=20260627-product-card-v3";
+import { homePage, bindHomeCarousel } from "./pages/home.js?v=20260627-card-price-spec";
 import { storyPage } from "./pages/story.js?v=20260626-final";
-import { seriesPage } from "./pages/series.js?v=20260627-product-card-v3";
+import { seriesPage } from "./pages/series.js?v=20260627-card-price-spec";
 import { verificationPage } from "./pages/verification.js?v=20260614-hero-mask";
 import { journalPage } from "./pages/journal.js?v=20260614-hero-mask";
-import { productDetailPage } from "./pages/productDetail.js?v=20260627-product-card-v3";
+import { productDetailPage } from "./pages/productDetail.js?v=20260627-card-price-spec";
 import { contactPage } from "./pages/contact.js?v=20260614-hero-mask";
 
 const app = document.querySelector("#app");

@@ -1,4 +1,4 @@
-import { productCard } from "../components/productCard.js?v=20260627-product-card-v3";
+import { productCard } from "../components/productCard.js?v=20260627-card-price-spec";
 
 const heroSlides = [
   {
