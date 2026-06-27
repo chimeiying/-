@@ -769,66 +769,57 @@ main {
 
 .product-card {
   overflow: hidden;
-}
-
-.product-card img {
-  width: 100%;
-  aspect-ratio: 1 / .82;
-  object-fit: contain;
-  object-position: center center;
-  background: var(--neutral-white);
-}
-
-.product-card-body { padding: 22px; }
-
-.product-grid.four .product-card-featured {
   display: grid;
-  grid-template-rows: minmax(340px, 65%) minmax(0, 35%);
+  grid-template-rows: 340px minmax(0, auto);
 }
 
-.product-grid.four .product-card-featured > a {
+.product-card > a {
   display: grid;
   place-items: center;
-  min-height: 340px;
   overflow: hidden;
   padding: 6px 8px 4px;
   background: var(--neutral-white);
 }
 
-.product-grid.four .product-card-featured img {
+.product-card img {
   width: 100%;
   height: 100%;
   max-height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  background: var(--neutral-white);
 }
 
-.product-grid.four .product-card-featured.product-card-hs10-white-rice img {
+.product-card.product-card-hs10-white-rice img {
   transform: scale(1.12);
   transform-origin: center center;
 }
 
-.product-grid.four .product-card-featured.product-card-hs10-germ-rice img,
-.product-grid.four .product-card-featured.product-card-hs10-brown-rice img {
+.product-card.product-card-hs10-germ-rice img,
+.product-card.product-card-hs10-brown-rice img {
   transform: scale(1.21);
   transform-origin: center center;
 }
 
-.product-grid.four .product-card-featured .product-card-body {
+.product-card-body {
   display: grid;
   align-content: start;
   padding: 18px 20px 20px;
 }
 
-.product-grid.four .product-card-featured h3 {
+.product-card h3 {
   margin-bottom: 6px;
 }
 
-.product-grid.four .product-card-featured p {
+.product-card p {
+  margin: 0;
+  color: var(--cream);
   min-height: 3.4em;
   font-size: 15px;
   line-height: 1.7;
 }
 
-.product-grid.four .product-card-featured .product-card-footer {
+.product-card .product-card-footer {
   margin-top: 16px;
 }
 
@@ -853,9 +844,6 @@ main {
   line-height: 1.28;
 }
 
-.product-card p { margin: 0; color: var(--cream); }
-
-.feature-row,
 .shipping-note,
 .verification-chips {
   display: flex;
@@ -864,7 +852,6 @@ main {
   margin: 18px 0;
 }
 
-.feature-row span,
 .shipping-note span,
 .verification-chips span {
   padding: 5px 10px;
@@ -1717,7 +1704,7 @@ main {
     flex-wrap: wrap;
   }
 
-  .product-grid.four,
+  .product-grid,
   .category-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1915,7 +1902,7 @@ main {
   }
 
   .category-grid,
-  .product-grid.four,
+  .product-grid,
   .trust-visuals,
   .steps-grid {
     grid-template-columns: 1fr;

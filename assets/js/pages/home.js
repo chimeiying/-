@@ -1,4 +1,4 @@
-import { productCard } from "../components/productCard.js";
+import { productCard } from "../components/productCard.js?v=20260627-product-card-v3";
 
 const heroSlides = [
   {
@@ -49,7 +49,7 @@ const shoppingSteps = [
 let heroCarouselTimer = null;
 
 export function homePage({ products }) {
-  const bestSellers = products.slice(0, 4).map((product) => productCard(product, { featured: true })).join("");
+  const bestSellers = products.slice(0, 4).map(productCard).join("");
 
   return `
     <section class="hero-section brand-hero hero-carousel" data-hero-carousel>

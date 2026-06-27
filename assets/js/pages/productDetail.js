@@ -1,4 +1,4 @@
-import { productCard } from "../components/productCard.js";
+import { productCard } from "../components/productCard.js?v=20260627-product-card-v3";
 
 export function productDetailPage({ products, productId }) {
   const product = products.find((item) => item.id === productId) || products[0];

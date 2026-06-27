@@ -1,4 +1,4 @@
-import { productCard } from "../components/productCard.js";
+import { productCard } from "../components/productCard.js?v=20260627-product-card-v3";
 
 const productCategories = Object.freeze([
   { id: "organic-rice", title: "有機米系列" },
