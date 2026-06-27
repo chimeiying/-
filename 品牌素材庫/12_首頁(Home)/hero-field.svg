@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="稻田與米包">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f0df"/>
+      <stop offset="1" stop-color="#d7c07a"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#6f7a42"/>
+      <stop offset="1" stop-color="#173b2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="44" fill="url(#sky)"/>
+  <circle cx="760" cy="150" r="86" fill="#d5a83c" opacity=".72"/>
+  <path d="M0 384c170-92 346-94 528-8 162 76 302 69 432-22v366H0z" fill="url(#field)"/>
+  <g fill="none" stroke="#dfc36a" stroke-width="5" opacity=".78">
+    <path d="M76 650c80-188 130-274 202-340"/>
+    <path d="M142 656c88-158 170-255 282-318"/>
+    <path d="M228 660c110-172 222-265 382-315"/>
+    <path d="M338 662c134-160 250-238 430-272"/>
+    <path d="M470 666c102-116 206-176 384-214"/>
+  </g>
+  <g transform="translate(302 164)">
+    <rect x="0" y="0" width="268" height="376" rx="24" fill="#f6efe1"/>
+    <rect x="22" y="22" width="224" height="332" rx="16" fill="none" stroke="#173b2f" stroke-width="4"/>
+    <text x="134" y="116" text-anchor="middle" font-family="serif" font-size="48" fill="#173b2f">長秈10號</text>
+    <text x="134" y="168" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#7b5f20">心有戚戚焉</text>
+    <path d="M88 250c42-52 82-76 122-82-18 44-48 74-94 94 28-6 56-4 84 4-44 40-92 48-144 24 14-10 24-24 32-40z" fill="#d5a83c"/>
+  </g>
+</svg>

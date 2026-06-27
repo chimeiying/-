@@ -950,6 +950,19 @@ main {
   background: linear-gradient(135deg, var(--green-2), var(--green));
 }
 
+.series-hero {
+  padding-bottom: 90px;
+}
+
+.series-block {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.series-hero + .series-block {
+  padding-top: 0;
+}
+
 .story-layout,
 .contact-layout,
 .product-detail-hero {

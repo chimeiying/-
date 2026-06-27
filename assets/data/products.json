@@ -2,7 +2,8 @@
   {
     "id": "hs10-white-rice",
     "name": "長秈10號白米",
-    "category": "米食系列",
+    "category": "有機米系列",
+    "categoryId": "organic-rice",
     "price": 207,
     "weight": "1kg",
     "image": "assets/images/product-rice-white.png",
@@ -27,7 +28,8 @@
   {
     "id": "hs10-germ-rice",
     "name": "長秈10號胚芽米",
-    "category": "米食系列",
+    "category": "有機米系列",
+    "categoryId": "organic-rice",
     "price": 207,
     "weight": "1kg",
     "image": "assets/images/product-rice-germ.png",
@@ -52,7 +54,8 @@
   {
     "id": "hs10-brown-rice",
     "name": "長秈10號糙米",
-    "category": "米食系列",
+    "category": "有機米系列",
+    "categoryId": "organic-rice",
     "price": 207,
     "weight": "1kg",
     "image": "assets/images/product-rice-brown.png",
@@ -77,7 +80,8 @@
   {
     "id": "purple-rice",
     "name": "紫米",
-    "category": "米食系列",
+    "category": "有機米系列",
+    "categoryId": "organic-rice",
     "price": 267,
     "weight": "600g",
     "image": "assets/images/product-rice-purple.png",
@@ -102,7 +106,8 @@
   {
     "id": "organic-black-soybean",
     "name": "有機黑豆",
-    "category": "豆類系列",
+    "category": "豆穀系列",
+    "categoryId": "beans-grains",
     "price": 260,
     "weight": "500g",
     "image": "assets/images/product-bean.svg",
@@ -126,7 +131,8 @@
   {
     "id": "organic-black-soymilk",
     "name": "有機黑豆漿",
-    "category": "豆飲系列",
+    "category": "豆穀系列",
+    "categoryId": "beans-grains",
     "price": 420,
     "weight": "250ml x 6",
     "image": "assets/images/product-soymilk.svg",
@@ -150,7 +156,8 @@
   {
     "id": "rice-bran-tea",
     "name": "米糠穀香茶",
-    "category": "養生系列",
+    "category": "豆穀系列",
+    "categoryId": "beans-grains",
     "price": 300,
     "weight": "12入",
     "image": "assets/images/product-tea.svg",
@@ -174,7 +181,8 @@
   {
     "id": "apple-vinegar",
     "name": "蘋果水果醋",
-    "category": "養生系列",
+    "category": "健康生活",
+    "categoryId": "healthy-living",
     "price": 380,
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
@@ -198,7 +206,8 @@
   {
     "id": "plum-vinegar",
     "name": "梅子水果醋",
-    "category": "養生系列",
+    "category": "健康生活",
+    "categoryId": "healthy-living",
     "price": 380,
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
@@ -222,7 +231,8 @@
   {
     "id": "grape-vinegar",
     "name": "葡萄水果醋",
-    "category": "養生系列",
+    "category": "健康生活",
+    "categoryId": "healthy-living",
     "price": 380,
     "weight": "500ml",
     "image": "assets/images/product-vinegar.svg",
@@ -246,7 +256,8 @@
   {
     "id": "black-soybean-roll",
     "name": "黑豆蛋捲",
-    "category": "米製點心系列",
+    "category": "生活良品",
+    "categoryId": "lifestyle-goods",
     "price": 280,
     "weight": "8入",
     "image": "assets/images/product-snack.svg",
@@ -270,7 +281,8 @@
   {
     "id": "rice-puff",
     "name": "米菓",
-    "category": "米製點心系列",
+    "category": "生活良品",
+    "categoryId": "lifestyle-goods",
     "price": 160,
     "weight": "100g",
     "image": "assets/images/product-snack.svg",
@@ -294,7 +306,8 @@
   {
     "id": "rice-cracker",
     "name": "米餅",
-    "category": "米製點心系列",
+    "category": "生活良品",
+    "categoryId": "lifestyle-goods",
     "price": 180,
     "weight": "120g",
     "image": "assets/images/product-snack.svg",

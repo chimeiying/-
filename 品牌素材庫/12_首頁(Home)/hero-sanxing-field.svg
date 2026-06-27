@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" role="img" aria-label="宜蘭三星稻田">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#F8F5EC"/><stop offset="1" stop-color="#D7E4D0"/></linearGradient>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#D7E4D0"/><stop offset=".55" stop-color="#89A97A"/><stop offset="1" stop-color="#6F8F61"/></linearGradient>
+  </defs>
+  <rect width="1440" height="860" fill="url(#sky)"/>
+  <circle cx="1110" cy="164" r="92" fill="#C7A35A" opacity=".62"/>
+  <path d="M0 430c220-92 430-108 630-44 186 60 342 46 522-36 94-42 190-56 288-34v544H0z" fill="url(#field)"/>
+  <g stroke="#F8F5EC" stroke-width="4" opacity=".72" fill="none">
+    <path d="M70 790c210-188 420-302 620-340"/>
+    <path d="M218 820c230-170 476-270 738-300"/>
+    <path d="M456 840c218-130 446-200 684-210"/>
+    <path d="M740 850c150-82 306-124 468-126"/>
+  </g>
+  <g transform="translate(935 402)" fill="#6E5841">
+    <circle cx="52" cy="34" r="24"/>
+    <path d="M36 62h32l18 142H18z"/>
+    <path d="M70 88c54 20 96 60 126 120" stroke="#6E5841" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <path d="M32 86C-4 116-22 158-26 212" stroke="#6E5841" stroke-width="15" fill="none" stroke-linecap="round"/>
+  </g>
+  <g stroke="#C7A35A" stroke-width="7" fill="none" stroke-linecap="round" opacity=".78">
+    <path d="M164 660c60-112 92-198 100-258"/>
+    <path d="M214 652c76-110 128-188 156-236"/>
+    <path d="M270 648c96-104 160-170 194-198"/>
+  </g>
+</svg>
